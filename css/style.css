@@ -4,20 +4,37 @@
 
 
 h1{
-    background-color: aqua;
     text-align: center;
+}
+
+h1 span {
+    background-color: #030d8a;
+    color: #ffffff;
 }
 
 
 h2{
-    display: inline;
-    justify-content: center;
-    background-color: aquamarine;
     text-align: center;
-    border-bottom: 5px solid #7a0000;
-    margin: auto;
+    }
+
+h2 span {
+    background-color: #030d8a;
+    color: #ffffff;
 }
 
+
+p{
+    font-size: 18px;
+}
+
+
+hr{
+    border-bottom: 5px solid #7a0000;
+}
+
+.pix-galery{
+    text-align: center
+}
 
 figure {
     border-style: ridge;
@@ -27,7 +44,6 @@ figure {
     max-width: 550px;
     margin: 20px auto;
 }
-
 
 
 figcaption {
@@ -42,3 +58,8 @@ div {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+
+
