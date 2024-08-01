@@ -43,7 +43,7 @@ img {
     
 figure {
     border-style: ridge;
-    display: inline-block;
+    display: flex;
     flex-flow: column;
     padding: 5px;
     margin: 20px auto;
