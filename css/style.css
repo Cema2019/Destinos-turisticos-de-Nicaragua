@@ -36,6 +36,11 @@ hr{
     text-align: center
 }
 
+img {
+    width: 100%;  
+    height: auto;
+}
+    
 figure {
     border-style: ridge;
     display: inline-block;
