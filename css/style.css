@@ -46,7 +46,6 @@ figure {
     display: inline-block;
     flex-flow: column;
     padding: 5px;
-    max-width: 550px;
     margin: 20px auto;
 }
 
