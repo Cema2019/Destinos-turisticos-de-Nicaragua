@@ -2,26 +2,22 @@
     background-color: #80e6e0
 }
 
-
-h1{
+h1 {
     text-align: center;
 }
 
-h1 span {
-    background-color: #030d8a;
-    color: #ffffff;
-}
-
-
-h2{
+h2 {
     text-align: center;
-    }
+    margin-top: 20px;
+}
 
 h2 span {
-    background-color: #030d8a;
+    background-color: #003366;
     color: #ffffff;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    
 }
-
 
 p {
     font-size: 18px;
@@ -29,8 +25,21 @@ p {
 
 
 hr {
-    border-bottom: 5px solid #7a0000;
+    border-bottom: 5px solid #003366;
+    margin-bottom: 50px;
 }
+
+#title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 
 .gallery {
     text-align: center
@@ -84,10 +93,7 @@ figcaption {
     text-align: center;
 }
 
-div {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 
 
