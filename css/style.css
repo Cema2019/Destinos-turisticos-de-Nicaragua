@@ -1,4 +1,10 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: #80e6e0
 }
 
@@ -26,7 +32,7 @@ p {
 
 hr {
     border-bottom: 5px solid #003366;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 #title {
@@ -91,6 +97,13 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #003366;
+    color:#fff;
+    padding: 5px;
 }
 
 
