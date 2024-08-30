@@ -37,7 +37,31 @@ hr {
 }
 
 .pix-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+}
 
+.pix-gallery figure {
+    flex: 1 1 300px; /* Grow, shrink, and set a base width */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    max-width: 400px; /* Set a maximum width for uniformity */
+}
+
+.pix-gallery img {
+    width: 100%;
+    height: 300px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    display: block;
+    margin: 0 auto;
+}
+
+.one-pic {
+    width: 60%;
+    margin: 0 auto;
 }
 
 img {
