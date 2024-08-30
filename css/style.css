@@ -23,17 +23,21 @@ h2 span {
 }
 
 
-p{
+p {
     font-size: 18px;
 }
 
 
-hr{
+hr {
     border-bottom: 5px solid #7a0000;
 }
 
-.pix-galery{
+.gallery {
     text-align: center
+}
+
+.pix-gallery {
+
 }
 
 img {
@@ -43,8 +47,6 @@ img {
     
 figure {
     border-style: ridge;
-    display: flex;
-    flex-flow: column;
     padding: 5px;
     margin: 20px auto;
 }
