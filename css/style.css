@@ -8,6 +8,10 @@ body {
     background-color: #80e6e0
 }
 
+main {
+    padding: 20px;
+}
+
 h1 {
     text-align: center;
 }
@@ -103,7 +107,7 @@ footer {
     text-align: center;
     background-color: #003366;
     color:#fff;
-    padding: 5px;
+    padding: 15px;
 }
 
 
