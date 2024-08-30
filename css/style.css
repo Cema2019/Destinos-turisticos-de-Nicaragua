@@ -83,16 +83,21 @@ p {
 .one-pic {
     width: 60%;
     margin: 0 auto;
+    padding: 0;
 }
 
 img {
     width: 100%;  
     height: auto;
+    padding: 0;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
     
 figure {
     border-style: ridge;
-    padding: 5px;
+    padding: 0px;
     margin: 20px auto;
 }
 
@@ -103,6 +108,7 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    margin: 0;
 }
 
 footer {
@@ -113,6 +119,12 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+footer figure {
+    max-width: 180px; 
+    margin: 0 auto; 
+    padding: 0; 
 }
 
 
