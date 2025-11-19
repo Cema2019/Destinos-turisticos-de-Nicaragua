@@ -132,6 +132,12 @@ footer figure {
     padding: 0; 
 }
 
+footer .footer-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #scrollToTopBtn {
     display: none;
     position: fixed;
